@@ -79,7 +79,7 @@ main {
 /* Home */
 
 .home {
-    height: 80em;
+    height: 60em;
     width: 50em;
 }
 
@@ -117,7 +117,7 @@ main {
     text-align: center;
     background-color: #ffffff;
     margin: 5px;
-    margin-top: 10em;
+    margin-top: 20em;
 }
 
 .ling-title {
