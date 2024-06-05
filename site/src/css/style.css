@@ -1,3 +1,11 @@
+:root {
+    --w: rgb(255, 255, 255);
+    --b: rgb(30,30,30);
+    --mb:rgb(66, 66, 66);
+    --g:rgb(121, 121, 121);
+
+}
+
 body {
     margin-top: 0;
     
@@ -11,7 +19,7 @@ header {
     width: 100%;
     color: rgb(0, 0, 0);
     background-color: #ffffff;
-    padding: 0px 30px ;
+    padding: 0px 0px ;
     z-index: 1000; 
 }
 
@@ -21,19 +29,20 @@ main {
 }
 
 
-/* Barra Menu */
+/* Menu Bar */
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 70px;
+    padding: 0px 0px;
     
 }
 
 .navbartittle {
     font-size: 20px;
     font-weight: bold;
+    margin-left: 10px;
 }
 
 .navbarlinks {
@@ -143,3 +152,24 @@ main {
 
 
 /* Barra Menu */
+
+
+/* Scrollbar */
+
+body::-webkit-scrollbar {
+    width: 2px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--w);      /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color:var(--b);     /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+  }
+
+
+
+  
+
