@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ptbr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,37 +9,66 @@
     <title>João Grippa | Front-end Developer</title>
     <link rel="icon" type="image/x-icon" href="src/imagens/cookie.png">
     <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
-    <header class="cabecalho">
-        <nav class="navbar">
-            <div class="navbartittle"> Joao.dev </div>
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <nav class="navbar">
+                <div class="navbartittle"> Joao.dev </div>
                 <ul class="navbarlinks">
                     <li><a href="#Home">Home</a></li>
                     <li><a href="#About">About</a></li>
                     <li><a href="#Projects">Projects</a></li>
                     <li><a href="#Contact">Contact</a></li>
                 </ul>
-        </nav>  
-    </header>   
+            </nav>
+        </header>
 
-    <main class="portifolio">
-        <nav>
-            <h1 id="Home" class="home">Front-end Developer</h1>
-            <p>Introducing João Grippa: Brazilian Front-end Developer. Turning ideas into vibrant and impactful digital experiences! 🇧🇷💻 </p>
-        </nav>
-        <nav>
-            <h1 id="About">ABOUT ME</h1>
-        </nav>
-        <nav>
-            <h1 id="Projects">PORTIFOLIO</h1>
-        </nav>
-        <nav>
-            <h1 id="Contact">CONTACT ME</h1>
-        </nav>
+        <main class="portifolio">
+            <nav class="home">
+                <h1 id="Home" class="tittle">Front-end Developer</h1>
+                <p class="aboutme">Introducing João Grippa: Brazilian Front-end Developer. Turning ideas into vibrant
+                    and impactful digital experiences! 🇧🇷💻 </p>
 
-    </main>
-    <script src="src/script/script.js"></script>
-</body>
+                <nav class="icons">
+                    <div class="icon-container">
+                        <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-grippa-86958b270/" target="_blank"
+                            class="icon-link linkedin">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/JaumoJaum" target="_blank" class="icon-link github">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </nav>
+                <div class="ling-stack">
+                    <span class="ling-title">Tools</span>
+                    <div class="ling-icons">
+                        <img src="src/imagens/html-icon.png" alt="HTML">
+                        <img src="src/imagens/css-icon.png" alt="CSS">
+                        <img src="src/imagens/js-icon.png" alt="JavaScript">
+                    </div>
+                </div>
+            </nav>
+
+            <nav>
+                <h1 id="About">ABOUT ME</h1>
+            </nav>
+            <nav>
+                <h1 id="Projects">PORTIFOLIO</h1>
+            </nav>
+            <nav>
+                <h1 id="Contact">CONTACT ME</h1>
+            </nav>
+
+        </main>
+        
+        <script src="src/script/script.js"></script>
+
+    </body>
+
 </html>

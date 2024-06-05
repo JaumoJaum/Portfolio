@@ -69,19 +69,76 @@ main {
 /* Body */
 
 .portifolio {
-    margin-left: 200px;
+    margin: 15em;
+    margin-top: 10em;
+
+   
 }
 
 
-
 /* Home */
-    .home {
-        font-size:100px;
-        margin: 0px 0px 0px 0px;
-        
-        
-    }
 
+.home {
+    height: 80em;
+    width: 50em;
+}
+
+.tittle {
+    font-size:85px;
+    margin: 0px 0px 0px 0px;
+        
+}
+
+.aboutme {
+    margin: 5px;
+}
+
+.icons {
+    margin-top: 2em;
+}
+
+
+.icon-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.icon-link i {
+    font-size: 35px;
+    margin: 5px;   
+}
+
+.linkedin {
+    font-size: 35px;
+}
+
+.ling-stack {
+    display: flex;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 5px;
+    margin-top: 10em;
+}
+
+.ling-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.ling-icons {
+    margin-left: 27em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ling-icons img {
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
 /* Barra Menu */
 
 
