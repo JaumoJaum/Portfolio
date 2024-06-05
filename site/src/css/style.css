@@ -51,7 +51,7 @@ main {
     padding: 0;
     display: flex;
     justify-content: flex-end;
-    transition: 1s;
+    transition: 2s;
 }
 
 .navbarlinks li{
@@ -65,7 +65,7 @@ main {
     font-size: 20px;
     padding: 15px;
     margin: 0;
-    transition: background-color 1s, padding 0.5s; 
+    transition: background-color 0.3s, padding 1s; 
     white-space: nowrap;
 }
 
