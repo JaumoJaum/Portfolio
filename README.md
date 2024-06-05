@@ -1,2 +1,2 @@
-# Projeto site
- Site para estudo de html css, e com mais foco em javascript
+# Protifólio
+ Portifólio feito interamente por mim, usando html css e javascript
