@@ -78,8 +78,9 @@ main {
 /* Body */
 
 .portifolio {
-    margin: 15em;
+    margin-left: 10em;
     margin-top: 10em;
+    margin-right: 10em;
 
    
 }
@@ -89,7 +90,7 @@ main {
 
 .home {
     height: 60em;
-    width: 50em;
+
 }
 
 .tittle {
@@ -98,8 +99,9 @@ main {
         
 }
 
-.aboutme {
+.introducao {
     margin: 5px;
+    margin-right: 40em;
 }
 
 .icons {
@@ -123,8 +125,8 @@ main {
 
 .ling-stack {
     display: flex;
-    text-align: center;
-    background-color: #ffffff;
+    justify-content: space-between;
+    background-color: transparent;
     margin: 5px;
     margin-top: 20em;
 }
@@ -138,17 +140,23 @@ main {
 
 .ling-icons {
     margin-left: 27em;
+    margin-right: 0em;
     display: inline-block;
     vertical-align: middle;
 }
 
 .ling-icons img {
-    margin: 0 10px;
+    margin: 0 40px;
     width: 40px;
     height: 40px;
     object-fit: contain;
 }
-/* Barra Menu */
+/* About me*/
+
+.aboutme {
+    height: 60em;
+    margin: 25% 25% 25% 25%;
+}
 
 
 /* Barra Menu */

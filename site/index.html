@@ -20,10 +20,10 @@
             <nav class="navbar">
                 <div class="navbartittle"> Joao.dev </div>
                 <ul class="navbarlinks">
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Projects">Projects</a></li>
-                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#Home" draggable="false">Home</a></li>
+                    <li><a href="#About" draggable="false">About</a></li>
+                    <li><a href="#Projects" draggable="false">Projects</a></li>
+                    <li><a href="#Contact" draggable="false">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -31,32 +31,36 @@
         <main class="portifolio">
             <nav class="home">
                 <h1 id="Home" class="tittle">Front-end Developer</h1>
-                <p class="aboutme">Introducing João Grippa: Brazilian Front-end Developer. Turning ideas into vibrant
+                <p class="introducao">Introducing João Grippa: Brazilian Front-end Developer.<br> Turning ideas into vibrant
                     and impactful digital experiences! 🇧🇷💻 </p>
 
                 <nav class="icons">
                     <div class="icon-container">
                         <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-grippa-86958b270/" target="_blank"
-                            class="icon-link linkedin">
+                            class="icon-link linkedin"  draggable="false">
                             <i class="fa-brands fa-linkedin"></i>
                         </a>
-                        <a href="https://github.com/JaumoJaum" target="_blank" class="icon-link github">
+                        <a href="https://github.com/JaumoJaum" target="_blank" class="icon-link github"  draggable="false"> 
                             <i class="fa-brands fa-github"></i>
                         </a>
                     </div>
                 </nav>
                 <div class="ling-stack">
                     <span class="ling-title">Tools</span>
+                    
                     <div class="ling-icons">
-                        <img src="src/imagens/html-icon.png" alt="HTML">
-                        <img src="src/imagens/css-icon.png" alt="CSS">
-                        <img src="src/imagens/js-icon.png" alt="JavaScript">
+                        <img src="src/imagens/html-icon.png" alt="HTML" draggable="false">
+                        <img src="src/imagens/css-icon.png" alt="CSS" draggable="false">
+                        <img src="src/imagens/js-icon.png" alt="JavaScript" draggable="false">
                     </div>
                 </div>
             </nav>
 
-            <nav>
+            <nav class="aboutme">
                 <h1 id="About">ABOUT ME</h1>
+                <p class="sobremim">Hi, I'm João, a front-end developer from Brazil. I specialize in creating responsive, user-friendly websites using HTML, CSS, and JavaScript. With experience in frameworks like React and Vue.js, I focus on delivering seamless user experiences and cross-browser compatibility. Passionate about innovation and collaboration, I'm always eager to tackle new challenges and opportunities.
+
+                Let's connect and create something amazing together!</p>
             </nav>
             <nav>
                 <h1 id="Projects">PORTIFOLIO</h1>
@@ -72,3 +76,4 @@
     </body>
 
 </html>
+
