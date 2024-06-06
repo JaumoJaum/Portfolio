@@ -8,7 +8,7 @@
 
 body {
     margin-top: 0;
-    
+    margin: 0;
     font-family: "Changa", sans-serif;
 }
 
@@ -45,6 +45,10 @@ main {
     margin-left: 10px;
 }
 
+.navbartittle a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
 .navbarlinks {
     list-style: none;
     margin: 0;
@@ -89,23 +93,28 @@ main {
 /* Home */
 
 .home {
-    height: 60em;
+    height: 100vh;
 
 }
 
 .tittle {
     font-size:85px;
     margin: 0px 0px 0px 0px;
+    max-width: 850px;
         
 }
 
 .introducao {
-    margin: 5px;
-    margin-right: 40em;
+    margin: 0;
+    max-width: 500px;
+    position: relative;
+    top: 15px;
 }
 
 .icons {
-    margin-top: 2em;
+    max-width: 200px;
+    position: relative;
+    top: 40px;
 }
 
 
@@ -128,14 +137,16 @@ main {
     justify-content: space-between;
     background-color: transparent;
     margin: 5px;
-    margin-top: 20em;
+    position: relative;
+    top: 300px;
+    
 }
 
 .ling-title {
     font-size: 24px;
     margin-bottom: 10px;
     display: inline-block;
-    margin-right: 20px;
+   
 }
 
 .ling-icons {
@@ -154,10 +165,54 @@ main {
 /* About me*/
 
 .aboutme {
-    height: 60em;
-    margin: 25% 25% 25% 25%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;
+    margin: 0;
+
 }
 
+.container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.group1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.group2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    position: relative;
+}
+
+
+.about {
+    color: #cf6400;
+    line-height: 25px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.subabout {
+    line-height: 30px;
+    font-size: 30px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.imgabout {
+    position: relative;
+    border-radius: 20px;
+
+}
 
 /* Barra Menu */
 
