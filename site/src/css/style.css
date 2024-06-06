@@ -75,16 +75,16 @@ main {
 
 .navbarlinks a:hover {
    padding: 15px 30px 15px 30px ;
-   background-color: #969696;
+   background-color: #c9c9c9;
    color: #ffffff;
 }
 
 /* Body */
 
 .portifolio {
-    margin-left: 10em;
-    margin-top: 10em;
-    margin-right: 10em;
+    margin-left: 15vh;
+    margin-top: 25vh;
+    margin-right: 15vh;
 
    
 }
@@ -100,13 +100,13 @@ main {
 .tittle {
     font-size:85px;
     margin: 0px 0px 0px 0px;
-    max-width: 850px;
-        
+    max-width: 80vh;
+    line-height: 70px;
 }
 
 .introducao {
     margin: 0;
-    max-width: 500px;
+    max-width: 80vh;
     position: relative;
     top: 15px;
 }
@@ -134,34 +134,50 @@ main {
 
 .ling-stack {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; 
+    align-items: center;
     background-color: transparent;
     margin: 5px;
     position: relative;
-    top: 300px;
-    
+    margin-top: 20vh;
 }
 
 .ling-title {
     font-size: 24px;
     margin-bottom: 10px;
     display: inline-block;
-   
 }
 
 .ling-icons {
-    margin-left: 27em;
-    margin-right: 0em;
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px; 
 }
 
 .ling-icons img {
-    margin: 0 40px;
     width: 40px;
     height: 40px;
     object-fit: contain;
 }
+
+@media (min-width: 768px) {
+    .ling-stack {
+        flex-direction: row; 
+        justify-content: space-between;
+        top: 150px;
+    }
+
+    .ling-title {
+        margin-bottom: 0; 
+    }
+
+    .ling-icons {
+        justify-content: flex-start;
+        gap: 40px; 
+    }
+}
+
 /* About me*/
 
 .aboutme {
@@ -220,18 +236,9 @@ main {
 /* Scrollbar */
 
 body::-webkit-scrollbar {
-    width: 2px;               /* width of the entire scrollbar */
-  }
+    width: 0px;               
+}
   
-  body::-webkit-scrollbar-track {
-    background: var(--w);      /* color of the tracking area */
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color:var(--b);     /* color of the scroll thumb */
-    border-radius: 10px;       /* roundness of the scroll thumb */
-  }
-
 
 
   
