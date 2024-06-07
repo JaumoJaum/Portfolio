@@ -132,7 +132,6 @@ main {
 .ling-stack {
     display: flex;
     background-color: transparent;
-    margin: 5px;
     justify-content: space-between;
     position: relative;
     top: 15vh;
