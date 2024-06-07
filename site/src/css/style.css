@@ -89,6 +89,12 @@ main {
     align-items: center;
 }
 
+.hi {
+    font-size: 25px;
+    margin-left: 4px;
+    font-weight: 500;
+}
+
 .tittle {
     font-size: 85px;
     max-width: 50vh;
