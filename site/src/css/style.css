@@ -78,20 +78,13 @@ main {
 
 /* Body */
 
-.portifolio {
-  margin: 0;
-  background-color: var(--bg);
-}
-
 
 /* Home */
 
 .home {
     height: 80vh;
-    margin-top: 8vh;
     position: relative;
-    top: 20vh;
-    left: 35vh;
+    left: 50vh;
     max-width: 100vh;
     align-items: center;
 }
@@ -147,6 +140,10 @@ main {
     font-weight: 600;
 }
 
+.round {
+    border-radius: 8px;
+}
+
 .ling-icons {
     display: flex;
     flex-wrap: wrap;
@@ -169,23 +166,28 @@ main {
     height: 100vh;
     margin-top: 8vh;
     position: relative;
-    left: 35vh;
+    left: 50vh;
     max-width: 100vh;
     align-items: center;
     top: 0px;
+}
+
+.backgroundabout {
+    width: 100%;
+    background-color: var(--w);
 }
 
 .container {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 100px;
 }
 
 .group1 {
     display: flex;
     flex-direction: column;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .group2 {
@@ -207,6 +209,7 @@ main {
     font-size: 30px;
     margin-top: 4px;
     margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .imgabout {
@@ -219,9 +222,9 @@ main {
 /* Projects */
 
 .containerproject {
-    height: 100vh;
+    height: 50vh;
     position: relative;
-    left: 35vh;
+    left: 50vh;
     max-width: 100vh;
     align-items: center;
     top: 0px;
@@ -234,7 +237,7 @@ main {
  }
 
 .projects {
-    height: 100vh;
+    height: 40vh;
 }
 .projecttittle {
     color:var(--br);
@@ -242,11 +245,15 @@ main {
     font-size: 18px;
 }
 
+.subproject {
+    font-size: 30px;
+}
+
 /* Contact */
 
 .containercontact {
     position: relative;
-    left: 35vh;
+    left: 50vh;
     max-width: 100vh;
     align-items: center;
     top: 0px;
