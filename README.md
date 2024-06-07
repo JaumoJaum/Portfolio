@@ -1,2 +1,2 @@
 # Protifólio
- Portifólio feito interamente por mim, usando html css e javascript
+ Portifólio feito inteiramente por mim, usando html css e javascript.
