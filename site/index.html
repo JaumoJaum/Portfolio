@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta id="Author" content="João Pedro Grippa">
-    <link rel="stylesheet" type="text/css" href="src/css/style.css">
     <title>João Grippa | Front-end Developer</title>
-    <link rel="icon" type="image/x-icon" href="src/imagens/cookie.png">
+    <link rel="stylesheet" type="text/css" href="./src/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/resets.css">
+    <link rel="icon" type="image/x-icon" href="./src/imagens/cookie.png">
     <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -30,12 +31,11 @@
 
         <main class="portifolio">
             <nav class="home">
-                <h1 id="Home" class="tittle">Front-end Developer</h1>
-                <p class="introducao">Introducing João Grippa: Brazilian Front-end Developer.<br> Turning ideas into
+                <h1 id="Home" class="tittle">Front-End Developer</h1>
+                <p class="intro">Introducing João Grippa: Brazilian Front-end Developer.<br> Turning ideas into
                     vibrant
                     and impactful digital experiences! 🇧🇷💻 <br>
                 </p>
-
                 <nav class="icons">
                     <div class="icon-container">
                         <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-grippa-86958b270/" target="_blank"
@@ -50,7 +50,6 @@
                 </nav>
                 <div class="ling-stack">
                     <span class="ling-title">Tools</span>
-
                     <div class="ling-icons">
                         <img src="src/imagens/html-icon.png" alt="HTML" draggable="false">
                         <img src="src/imagens/css-icon.png" alt="CSS" draggable="false">
@@ -60,7 +59,6 @@
                     </div>
                 </div>
             </nav>
-
             <nav class="aboutme" id="About">
                 <div class="container">
                     <div class="group2">
@@ -69,14 +67,17 @@
                     <div class="group1">
                         <h1 class="about">ABOUT ME</h1>
                         <h1 class="subabout">Junior Front-end Developer based on Brazil</h1>
-                        <p class="sobremim">As a Junior Front-End Developer, I have a strong set of skills in HTML, CSS,
-                            JavaScript, TypeScript and React. I excel at designing and maintaining responsive websites that ensure
+                        <p class="sobremim">As a Junior Front-End Developer, I have a strong set of skills in HTML,
+                            CSS,
+                            JavaScript, TypeScript and React. I excel at designing and maintaining responsive
+                            websites that ensure
                             a
                             smooth user experience. My expertise lies in creating dynamic and engaging interfaces
                             through
                             clean and optimized code, leveraging cutting-edge development tools and techniques. I am
                             also a
-                            team player who thrives on collaborating with cross-functional teams to produce outstanding
+                            team player who thrives on collaborating with cross-functional teams to produce
+                            outstanding
                             web
                             applications.<br>
 
@@ -84,13 +85,33 @@
                     </div>
                 </div>
             </nav>
-            <nav>
-                <h1 id="Projects">PORTIFOLIO</h1>
-            </nav>
-            <nav>
-                <h1 id="Contact">CONTACT ME</h1>
-            </nav>
+            <nav class="projects" id="Projects">
+                <div class="containerproject">
+                    <div class="offset">
+                        <h1 class="projecttittle">PROJECTS</h1>
+                        <h1 class="subproject">Each Project is a Milestone</p>
+                            <div>
+                                <div class="projetos">
 
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </nav>
+            <nav class="backgroundcont">
+                <div class="containercontact">
+                    <h1 id="Contact" class="contactittle">CONTACT</h1>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3>Location</h3>
+                            <p class="subcontact">Brazil, São José dos Campos</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Mail</h3>
+                            <p class="subcontact">jp.mrgp@gmail.com</p>
+                        </div>
+                    </div>
+            </nav>
         </main>
 
         <script src="src/script/script.js"></script>
