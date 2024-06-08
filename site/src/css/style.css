@@ -84,7 +84,8 @@ main {
 .home {
     height: 80vh;
     position: relative;
-    left: 50vh;
+    left: 25%;
+    right: 25%;
     max-width: 100vh;
     align-items: center;
 }
@@ -153,6 +154,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
+    
 }
 
 .ling-icons img {
@@ -163,6 +165,12 @@ main {
 
 /* About me*/
 
+.backgroundabout {
+    width: 100%;
+    background-color: var(--w);
+    
+}
+
 .aboutme {
     display: flex;
     justify-content: center;
@@ -170,15 +178,12 @@ main {
     height: 100vh;
     margin-top: 8vh;
     position: relative;
-    left: 50vh;
+    left: 25%;
+    right: 25%;
+    margin-right: 25%;
     max-width: 100vh;
     align-items: center;
     top: 0px;
-}
-
-.backgroundabout {
-    width: 100%;
-    background-color: var(--w);
 }
 
 .container {
@@ -228,7 +233,7 @@ main {
 .containerproject {
     height: 50vh;
     position: relative;
-    left: 50vh;
+    left: 25%;
     max-width: 100vh;
     align-items: center;
     top: 0px;
@@ -257,7 +262,7 @@ main {
 
 .containercontact {
     position: relative;
-    left: 50vh;
+    left: 25%;
     max-width: 100vh;
     align-items: center;
     top: 0px;
