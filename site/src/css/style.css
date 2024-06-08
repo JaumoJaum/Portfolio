@@ -171,6 +171,8 @@ main {
     
 }
 
+
+
 .aboutme {
     display: flex;
     justify-content: center;
@@ -178,13 +180,13 @@ main {
     height: 100vh;
     margin-top: 8vh;
     position: relative;
-    left: 25%;
-    right: 25%;
+    margin-left: 25%;
     margin-right: 25%;
     max-width: 100vh;
     align-items: center;
     top: 0px;
 }
+
 
 .container {
     display: inline-flex;
