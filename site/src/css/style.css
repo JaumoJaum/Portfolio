@@ -81,13 +81,54 @@ main {
 
 /* Home */
 
-.home {
+.portfolio {
+    margin-top: 20vh;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 100px;
     height: 80vh;
     position: relative;
     left: 25%;
     right: 25%;
     max-width: 100vh;
     align-items: center;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.box2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+@media only screen and (min-width: 900px) {
+    .box3 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .box3 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 7;
+        grid-row-end: 7;
+        position: relative;
+        bottom: 50%;
+    }
 }
 
 .hi {
@@ -97,22 +138,13 @@ main {
 
 .tittle {
     font-size: 85px;
-    max-width: 50vh;
     line-height: 70px;
     font-weight: bold;
 }
 
-.intro {
-    max-width: 40vh;
-    position: relative;
-    top: 15px;
-    margin: 0px;
-}
-
 .icons {
     max-width: 200px;
-    position: relative;
-    top: 40px;
+    margin-top: 15%;
 }
 
 
@@ -130,18 +162,8 @@ main {
     font-size: 35px;
 }
 
-.ling-stack {
-    display: flex;
-    background-color: transparent;
-    justify-content: space-between;
-    position: relative;
-    top: 15vh;
-}
-
 .ling-title {
     font-size: 24px;
-    margin-bottom: 10px;
-    display: inline-block;
     font-weight: 600;
 }
 
@@ -151,10 +173,8 @@ main {
 
 .ling-icons {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     gap: 40px;
-    
+
 }
 
 .ling-icons img {
@@ -168,7 +188,7 @@ main {
 .backgroundabout {
     width: 100%;
     background-color: var(--w);
-    
+
 }
 
 
@@ -239,19 +259,20 @@ main {
     max-width: 100vh;
     align-items: center;
     top: 0px;
- }
- 
- .offset {
+}
+
+.offset {
     position: relative;
     top: 10vh;
-    
- }
+
+}
 
 .projects {
     height: 40vh;
 }
+
 .projecttittle {
-    color:var(--br);
+    color: var(--br);
     line-height: 25px;
     font-size: 18px;
 }
@@ -278,7 +299,7 @@ main {
 }
 
 .contactittle {
-    color:var(--br);
+    color: var(--br);
     line-height: 25px;
     font-size: 18px;
 }
