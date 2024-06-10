@@ -81,17 +81,16 @@ main {
 
 .portfolio {
     margin-top: 20vh;
+
 }
 
 .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 100px;
-    margin-right: 20%;
+    margin-right: 25vh;
+    margin-left: 25vh;
     height: 80vh;
-    position: relative;
-    left: 25%;
-    right: 25%;
     max-width: 100vh;
     align-items: center;
 }
@@ -110,18 +109,20 @@ main {
     grid-row-end: 7;
 }
 
-@media only screen and (min-width: 900px) {
-    .box3 {
+.box3 {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 6;
         grid-row-end: 7;
-        margin-left: 15%;
-    }
 }
 
-@media only screen and (max-width: 900px) {
-.box3 {
+@media only screen and (max-width: 1000px) {
+
+    .box1 {
+        max-width: 50vh;
+    }
+
+    .box3 {
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 7;
@@ -191,49 +192,61 @@ main {
 
 /* About me*/
 
-.backgroundabout {
-    width: 100%;
+
+
+.containerabout {
     background-color: var(--w);
-
-}
-
-
-
-.aboutme {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
-    margin-top: 8vh;
-    position: relative;
-    margin-left: 25%;
-    margin-right: 25%;
-    max-width: 100vh;
-    align-items: center;
-    top: 0px;
+    min-width: 100%;
 }
 
 
-.container {
-    display: inline-flex;
-    align-items: center;
+.wrapperabout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
-    gap: 100px;
+    align-items: center;
+    margin-right: 25vh;
+    margin-left: 25vh;
+    height:100vh;
+    width: 100vh;
+
+   
 }
 
-.group1 {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
+.box1home {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
 }
 
-.group2 {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    position: relative;
+.box2home {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
 }
 
+.box1home img {
+    border-radius: 30px;
+    width: 400px;
+}
+
+@media only screen and (max-width: 1000px) {
+.box1home {
+        
+    }
+.wrapperabout {
+
+}
+
+.box2home {
+    
+}
+}
 
 .about {
     color: var(--br);
@@ -247,12 +260,6 @@ main {
     margin-top: 4px;
     margin-bottom: 10px;
     font-weight: 600;
-}
-
-.imgabout {
-    position: relative;
-    border-radius: 20px;
-
 }
 
 
@@ -342,3 +349,4 @@ main {
 body::-webkit-scrollbar {
     width: 0px;
 }
+
