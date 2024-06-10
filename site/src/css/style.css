@@ -86,13 +86,13 @@ main {
 
 .wrapper {
     display: grid;
+    align-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 100px;
     margin-right: min(25%);
-    margin-left: 25%;
-    height: 80vh;
+    margin-left: min(25%);
     max-width: 100vh;
-    align-items: center;
+    height: 80vh;
 }
 
 .box1 {
@@ -127,10 +127,6 @@ main {
         grid-column-end: 3;
         grid-row-start: 6;
         grid-row-end: 7;
-    }
-
-.wrapper {
-        grid-template-columns: repeat(1, 1fr);
     }
 
 }
@@ -190,17 +186,18 @@ main {
 
 /* About me*/
 
-
+.containerabout {
+    background-color: var(--w);
+}
 
 .wrapperabout {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
     align-items: center;
-    margin-right: 25%;
-    margin-left: 25%;
-    height:100vh;
-    width: 100vh;
+    margin-right: min(25%);
+    margin-left: min(25%);
+    min-height:100vh;
+    min-width: 100vh;  
 }
 
 .box1home {
