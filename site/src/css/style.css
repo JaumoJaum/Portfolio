@@ -188,6 +188,7 @@ main {
 
 .containerabout {
     background-color: var(--w);
+    width: 100%;
 }
 
 .wrapperabout {
@@ -198,7 +199,6 @@ main {
     margin-left: min(25%);
     min-height:100vh;
     min-width: 100vh;  
-    
 }
 
 .box1home {
@@ -206,7 +206,6 @@ main {
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 2;
-
 }
 
 .box2home {
