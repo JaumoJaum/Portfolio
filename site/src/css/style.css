@@ -199,6 +199,7 @@ main {
     margin-left: min(25%);
     min-height:100vh;
     min-width: 100vh;  
+    gap: 5%;
 }
 
 .box1home {
@@ -213,6 +214,7 @@ main {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
+    max-width: 350px;
 }
 
 .box1home img {
